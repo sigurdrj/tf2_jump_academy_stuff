@@ -1,1 +1,10 @@
-# tf2_jump_academy_stuff
+# Scripts for visualizing secret collectibles across the map Jump Academy 2
+Put your generated scripts in the `steamapps/common/Team Fortress 2/tf/cfg` folder \
+and run them in-game with `exec <script name>`
+![How to run the script in-game](how_to_run_ingame.png)
+
+# Show gold ingots
+# Show parrots
+# Show waypoints
+
+The scripts need a .vmf file of the map, so you'll need to manually decompile them
