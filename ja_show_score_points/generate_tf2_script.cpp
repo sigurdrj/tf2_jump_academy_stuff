@@ -199,10 +199,8 @@ int main(int argc, char *argv[]){
 			// Get coordinates from identifier
 			auto c = get_entity_origin_by_name(mapEntities, controlpoint["identifier"], "info_");
 
-			std::cout << "// Controlpoint\n";
-			std::cout << c.x << ' ' << c.y << ' ' << c.z << '\n';
-			scriptFile << "// Controlpoint\n";
-			scriptFile << "box " << c.x-C << ' ' << c.y-C << ' ' << c.z-C << ' ' << c.x+C << ' ' << c.y+C << ' ' << c.z+C << '\n';
+			std::cout << c.x << ' ' << c.y << ' ' << c.z << " // Controlpoint\n";
+			scriptFile << "box " << c.x-C << ' ' << c.y-C << ' ' << c.z-C << ' ' << c.x+C << ' ' << c.y+C << ' ' << c.z+C << " // Controlpoint\n";
 
 			continue;
 		}
@@ -211,10 +209,8 @@ int main(int argc, char *argv[]){
 		double y = controlpoint["y"];
 		double z = controlpoint["z"];
 
-		std::cout << "// Controlpoint\n";
-		std::cout << x << ' ' << y << ' ' << z << '\n';
-		scriptFile << "// Controlpoint\n";
-		scriptFile << "box " << x-C << ' ' << y-C << ' ' << z-C << ' ' << x+C << ' ' << y+C << ' ' << z+C << '\n';
+		std::cout << x << ' ' << y << ' ' << z << " // Controlpoint\n";
+		scriptFile << "box " << x-C << ' ' << y-C << ' ' << z-C << ' ' << x+C << ' ' << y+C << ' ' << z+C << " // Controlpoint\n";
 	}
 
 	scriptFile.close();
