@@ -5,6 +5,8 @@ and run them in-game with `exec <script name>`
 
 The scripts need a .vmf file of the map, so you'll need to manually decompile them
 
+See `pre-generated_scripts` for example output
+
 # In-game images
 Show gold ingots
 ![Gold ingots example](gold_ingots_example.png)
