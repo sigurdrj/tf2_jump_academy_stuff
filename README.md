@@ -3,11 +3,11 @@ Put your generated scripts in the `steamapps/common/Team Fortress 2/tf/cfg` fold
 and run them in-game with `exec <script name>`
 ![How to run the script in-game](how_to_run_ingame.png)
 
+The scripts need a .vmf file of the map, so you'll need to manually decompile them
+
 # Show gold ingots
 ![Gold ingots example](gold_ingots_example.png)
 # Show parrots
 ![Parrots example](parrots_example.png)
 # Show waypoints
 ![Waypoints example](waypoints_example.png)
-
-The scripts need a .vmf file of the map, so you'll need to manually decompile them
