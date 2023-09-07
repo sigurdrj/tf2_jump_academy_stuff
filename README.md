@@ -6,9 +6,9 @@ and run them in-game with `exec <script name>`
 The scripts need a .vmf file of the map, so you'll need to manually decompile them
 
 # In-game images
-![Gold ingots example](gold_ingots_example.png)
 Show gold ingots
-![Parrots example](parrots_example.png)
+![Gold ingots example](gold_ingots_example.png)
 Show parrots
-![Waypoints example](waypoints_example.png)
+![Parrots example](parrots_example.png)
 Show waypoints
+![Waypoints example](waypoints_example.png)
